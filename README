@@ -1,0 +1,9 @@
+Simple 
+
+Required libraries:
+- winston - https://github.com/indexzero/winston
+- underscrore - http://documentcloud.github.com/underscore/
+
+Installation:
+$ npm install winston
+$ npm install underscore
