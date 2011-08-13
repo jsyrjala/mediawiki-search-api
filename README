@@ -1,9 +1,7 @@
-Simple 
+Simple for searching with MediaWiki (for example Wikipedia) for Node.js. 
 
 Required libraries:
-- winston - https://github.com/indexzero/winston
 - underscrore - http://documentcloud.github.com/underscore/
 
 Installation:
-$ npm install winston
 $ npm install underscore

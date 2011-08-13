@@ -1,6 +1,5 @@
 require.paths.unshift('.')
 var url = require('url')
-var winston = require('winston');
 
 var client = require('mediawiki-search-api')
 // http://en.wikipedia.org/w/api.php
