@@ -1,20 +1,20 @@
 {
 	"name": "mediawiki-search-api",
-	"version": "0.1",
+	"version": "0.1.0",
 	"description": "Simple API for searching MediaWikis (e.g. WikiPedia) for Node.js",
 	"keywords": ["node.js", "mediawiki", "wikipedia", "api","search"],
-	"author": {"name": "Juha Syrjälä", "email": "juha.syrjala@gmail.com" }
+	"author": {"name": "Juha Syrjälä", "email": "juha.syrjala@gmail.com" }, 
 	"maintainers": [ {"name": "Juha Syrjälä", "email": "juha.syrjala@gmail.com" } ],
 	"contributors": [ {"name": "Juha Syrjälä", "email": "juha.syrjala@gmail.com" } ],
 	"bugs": "https://github.com/jsyrjala/mediawiki-search-api/issues",
 	"licenses": [ {"type": "LGPLv3", "url" : "http://www.gnu.org/licenses/lgpl.html" } ],
 	"repositories": [ {
 		"type": "git",
-		"url": "https://github.com/jsyrjala/mediawiki-search-api.git",
+		"url": "https://github.com/jsyrjala/mediawiki-search-api.git"
 	} ],
 	"dependencies": [ {
-		"underscore": "1.1.7"
+		"underscore": ">=1.1.7"
 	} ],
 	"engine": "node",
-	"main" : "mediawiki-search-api.js"
+	"main" : "./lib/mediawiki-search-api.js"
 }
