@@ -15,5 +15,6 @@
 	"dependencies": [ {
 		"underscore": "1.1.7"
 	} ],
-	"engine": "node"
+	"engine": "node",
+	"main" : "lib/mediawiki-search-api.js"
 }

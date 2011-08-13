@@ -1,7 +1,7 @@
 require.paths.unshift('.')
 var url = require('url')
 
-var client = require('mediawiki-search-api')
+var client = require('lib/mediawiki-search-api')
 // http://en.wikipedia.org/w/api.php
 
 function emptyCallback( error, result) {};
