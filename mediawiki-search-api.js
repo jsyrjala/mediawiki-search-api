@@ -66,8 +66,12 @@ function makeQuery(apiUrl, query, onSuccess, onError) {
 	}
 	var req = http.request(requestParams, function(resp) {
 		if(resp.statusCode == 200) {
-			resp.on('data', function(data) {
-				onSuccess(JSON.parse(data))
+			var message = ''
+			resp.on('data', function(chunk) {
+				message += chunk
+			})
+			resp.on('end', function() {
+				onSuccess(JSON.parse(message))
 			})
 		} else {
 			onError( new QueryFailedException(resp.statusCode))
